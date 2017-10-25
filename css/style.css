@@ -21,9 +21,9 @@ body {
   line-height: 1.71429;
 }
 
-img {
+/*img {
   vertical-align: middle;
-}
+}*/
 
 .container {
   width: 1200px;
@@ -159,9 +159,9 @@ section {
   color: #fff;
   width: 100%;
   height: 700px;
-  background-image: url(../assets/images/bg-home.jpg);
+  background-image: url(../assets/img/bg-home.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 113%;
   margin-top: 100px;
 }
 
@@ -193,6 +193,54 @@ section {
   top: 190px;
 }
 
-background_2.h2 {
-  margin-top: 0px;
+#background_2 {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 700px;
+  background-color: #f17c72;
 }
+
+#background_2 h4,h5,h6{
+  margin: 0px;
+}
+
+#background_2 h2 {
+  margin-top: 0px;
+  position: relative;
+  top: 80px;
+}
+
+#background_2 h4{
+  position: absolute;
+  top: 950px;
+  left: 440px;
+}
+
+#background_2 div img{
+  width:100%;
+  height:100%;
+}
+
+#background_2 .services-1{
+  width: 270px;
+  position: absolute;
+  left: 230px;
+  top: 1060px;
+}
+
+#background_2 .services-2 {
+  width: 270px;
+  position: absolute;
+  left: 650px;
+  top: 1060px;
+}
+
+#background_2 .services-3 {
+  width: 270px;
+  position: absolute;
+  left: 1070px;
+  top: 1060px;
+}
+
+
