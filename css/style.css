@@ -273,3 +273,10 @@ section {
   text-align: center;
 }
 
+footer{
+margin:0px;
+padding:10px;
+position:relative;
+text-align:center;
+top:100px;
+}
