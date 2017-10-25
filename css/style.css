@@ -5,7 +5,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-  outline: 1px solid #606060;
 }
 
 *:before,
@@ -112,6 +111,7 @@ header {
   background-color: white;
   z-index: 1000;
 }
+
 
 #header_nav {
   width: 400px;
@@ -243,7 +243,7 @@ section {
   clear: both;
 }
 
-.container img{
+.container #main_image{
   max-width: 100%;
   height: auto;
   padding-top: 50px;
@@ -258,8 +258,18 @@ section {
   padding-top: 30px;
 }
 
+.gallery img{
+  max-width: 100%;
+  height: auto;
+}
 
+.gallery div{
+  margin: 90px;
 
+}
 
-
+.gallery div h5{
+  margin-top: 0px;
+  text-align: center;
+}
 
